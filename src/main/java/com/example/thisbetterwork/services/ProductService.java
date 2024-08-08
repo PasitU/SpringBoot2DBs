@@ -1,9 +1,8 @@
 package com.example.thisbetterwork.services;
 
-import com.example.thisbetterwork.entities.Product;
-import com.example.thisbetterwork.repositories.ProductRepository;
+import com.example.thisbetterwork.repositories.enitities.Product;
+import com.example.thisbetterwork.repositories.repo.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

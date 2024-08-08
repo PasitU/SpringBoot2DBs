@@ -1,4 +1,4 @@
-package com.example.thisbetterwork.entities;
+package com.example.thisbetterwork.repositories2.entities;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
@@ -9,14 +9,13 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Entity
-@Table(name = "products")
 @AllArgsConstructor
 @NoArgsConstructor
+@Table(name = "users")
 @Getter
 @Setter
-public class Product {
+public class User {
     @Id
-    private Integer idproducts;
+    private Integer idusers;
     private String name;
-    private Double price;
 }
