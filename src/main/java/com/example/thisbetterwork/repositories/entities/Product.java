@@ -1,4 +1,4 @@
-package com.example.thisbetterwork.repositories.enitities;
+package com.example.thisbetterwork.repositories.entities;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;

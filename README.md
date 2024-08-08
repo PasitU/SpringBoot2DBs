@@ -24,4 +24,4 @@ I shall retire myself in this sprint and go play something nice like [Story of S
 ~ PasitU
 
 ![squishum](./pictures/squishum.png)
-> # No one knows for sure, but its squishiness is undeniable.
+> # "No one knows for sure, but its squishiness is undeniable."

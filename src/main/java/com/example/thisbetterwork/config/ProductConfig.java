@@ -40,7 +40,7 @@ public class ProductConfig {
     public LocalContainerEntityManagerFactoryBean entityManagerFactoryBean(){
         LocalContainerEntityManagerFactoryBean lemf = new LocalContainerEntityManagerFactoryBean();
         lemf.setDataSource(dataSource());
-        lemf.setPackagesToScan("com.example.thisbetterwork.repositories");
+        lemf.setPackagesToScan("com.example.thisbetterwork.repositories.entities");
         HibernateJpaVendorAdapter vendorAdapter = new HibernateJpaVendorAdapter();
         lemf.setJpaVendorAdapter(vendorAdapter);
         return lemf;
